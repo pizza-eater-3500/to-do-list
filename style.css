@@ -1,0 +1,106 @@
+.notes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.input-wrapper {
+    position: relative;
+    transform: translateY(100px);
+}
+
+.input-wrapper input{
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-right: 8px;
+}
+
+.input-wrapper button {
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.notes-holder {
+    width: 750px;
+    height: 500px; 
+    position: absolute;
+    transform: translateY(400px);
+}
+
+.notes-holder span {
+    display: block;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+#remove-btn, #edit-btn {
+    text-align: center;
+    margin-left: 10px;
+    border: 0;
+    width: 75px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#edit-btn {
+    width: 40px;
+}
+
+#edit-input {
+    margin-left: 10px;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#confirm-btn {
+    margin-left: 10px;
+    border: 0ch;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background: linear-gradient(black, rgb(23, 23, 23));
+    background-attachment: fixed;
+    color: white;
+}
+
+.dark-mode #add-btn {
+    border-color: white;
+    color: white;
+}
+
+.dark-mode input {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.dark-mode #change-mode-btn {
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#change-mode-btn {
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
